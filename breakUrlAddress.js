@@ -1,8 +1,10 @@
 let url = "https://www.microsoft.com/en-us/windows/get-windows-11";
 
 function breakUrl(url) {
-  var ArrayOfUrlParts = url.split("/"); // split the given string whenever '/' character occur
-  ArrayOfUrlParts = ArrayOfUrlParts.filter((item) => item); // remove empty values from our array (if any)
+  var ArrayOfUrlParts = url.split("://"); // split the given string whenever '://' character occur to get the protocol part
+  var protocol = ArrayOfUrlParts[0];
+  ArrayOfUrlParts = ArrayOfUrlParts[1].split("/"); // split the rest of the url by '/'
+  ArrayOfUrlParts.unshift(protocol); // add protocol part to the beginning of the array
   return ArrayOfUrlParts;
 }
 
