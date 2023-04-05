@@ -1,6 +1,6 @@
 # First-JavaScript-Task
 
-if the inserted url address is : https://www.microsoft.com/en-us/windows/get-windows-11
+If the inserted url address is : https://www.microsoft.com/en-us/windows/get-windows-11
 the output would be:
 
 ---------- The original url address ----------
