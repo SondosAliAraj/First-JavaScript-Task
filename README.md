@@ -10,4 +10,4 @@ https://www.microsoft.com/en-us/windows/get-windows-11
 
 ---------- The array of splitted parts of url:----------
 
-[ 'https:', 'www.microsoft.com', 'en-us', 'windows', 'get-windows-11' ]
+[ 'https', 'www.microsoft.com', 'en-us', 'windows', 'get-windows-11' ]
